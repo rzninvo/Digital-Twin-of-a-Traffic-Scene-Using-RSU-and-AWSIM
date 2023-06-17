@@ -5,3 +5,7 @@ Project Proposal Accepted at 5/11/2023
 
 ### Step 1
 TODO: Getting Lidar input data from our Computer Engineering faculty as a demo and attempting to create it's 3D model.
+DONE!
+
+### Step 2
+TODO: Finishing the Robotics Course and learning ROS.
