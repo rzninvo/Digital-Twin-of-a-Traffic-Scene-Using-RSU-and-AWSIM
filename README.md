@@ -17,3 +17,7 @@ DONE!
 
 ### Step 4
 TODO: Setting up Unity and Sketchup for the 3D modeling.
+
+
+## The AWSIM Demo After Configurating Everything
+https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/assets/46872428/f5b05a3e-4cc1-45c5-b072-100a61d440fc
