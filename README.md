@@ -4,8 +4,16 @@ B. Sc. Thesis concerning the semi-automatic creation of a digital twin of a traf
 Project Proposal Accepted at 5/11/2023
 
 ### Step 1
-TODO: Getting Lidar input data from our Computer Engineering faculty as a demo and attempting to create it's 3D model.
+TODO: Getting Lidar input data from our Computer Engineering faculty as a demo and attempting to create it's 3D model.   
 DONE!
 
 ### Step 2
-TODO: Finishing the Robotics Course and learning ROS.
+TODO: Finishing the Robotics Course and learning ROS.   
+DONE!
+
+### Step 3
+TODO: Setting up AWSIM and it's required libraries.   
+DONE!   
+
+### Step 4
+TODO: Setting up Unity and Sketchup for the 3D modeling.
