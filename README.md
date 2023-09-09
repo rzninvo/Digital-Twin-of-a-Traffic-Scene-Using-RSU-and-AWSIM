@@ -22,8 +22,11 @@ DONE!
 ### Step 5 
 TODO: Learning PCL and converting pcap recordings to PointCloud2 ROS2 Topics and publishing it.
 
-### Step 4
+### Step 6
 TODO: Setting up Unity and Sketchup for the 3D modeling.
+
+### Step 7
+TODO: Making a SLAM map based on the recorded pcap file and creating a Lanelet2 Map using the Tier4 website.
 
 
 ## The AWSIM Demo After Configurating Everything
