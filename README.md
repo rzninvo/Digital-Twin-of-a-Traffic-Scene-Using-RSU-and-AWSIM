@@ -16,6 +16,13 @@ TODO: Setting up AWSIM and it's required libraries.
 DONE!   
 
 ### Step 4
+TODO: Learning ROS2 Humble and the architecture behind Autoware and AWSIM.
+DONE!
+
+### Step 5 
+TODO: Learning PCL and converting pcap recordings to PointCloud2 ROS2 Topics and publishing it.
+
+### Step 4
 TODO: Setting up Unity and Sketchup for the 3D modeling.
 
 
