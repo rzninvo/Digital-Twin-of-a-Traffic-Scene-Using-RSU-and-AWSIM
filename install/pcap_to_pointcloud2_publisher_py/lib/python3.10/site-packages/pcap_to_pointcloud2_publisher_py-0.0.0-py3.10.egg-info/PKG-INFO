@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pcap-to-pointcloud2-publisher-py
+Version: 0.0.0
+Summary: A python package to publish Ouster Lidar PCAP data to ROS2 PointCloud2 Topic
+Home-page: UNKNOWN
+Maintainer: rohamzn
+Maintainer-email: rzninvo@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

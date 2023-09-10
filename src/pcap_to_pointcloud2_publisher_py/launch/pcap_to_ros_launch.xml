@@ -1,0 +1,8 @@
+<launch>
+    <arg name="pcap_file_path" default="test.pcap"/>
+    <arg name="pcap_metadata_path" default="test.json"/>
+    <node pkg="pcap_to_pointcloud2_publisher_py" exec="pcap_to_ros_publisher" name="pcap_to_ros_publisher">
+        <param name="pcap_file_path" value="$(var pcap_file_path)"/>
+        <param name="pcap_metadata_path" value="$(var pcap_metadata_path)"/>
+    </node>
+</launch>
