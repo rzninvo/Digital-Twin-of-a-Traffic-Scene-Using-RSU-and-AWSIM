@@ -6,7 +6,7 @@ Project Proposal Accepted at 5/11/2023
 ## The real time detection for an intersection demo:
 https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/assets/46872428/2549ab65-fce6-48c2-88c2-b1d3b224020b
 
-## The real time detection for an intersection demo:
+## The real time detection for a driving car demo:
 https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/assets/46872428/0ee02405-9e35-4a63-bf8c-4ef97401d949
 
 
