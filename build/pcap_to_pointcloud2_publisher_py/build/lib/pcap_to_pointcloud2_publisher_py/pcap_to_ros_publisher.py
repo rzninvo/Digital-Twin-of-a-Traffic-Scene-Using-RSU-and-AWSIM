@@ -25,16 +25,15 @@ class PcapToRosPublisher(Node):
         super().__init__('pcap_to_ros_publisher')
         self.declare_parameter(name='pcap_file_path', value='test.pcap')
         self.declare_parameter(name='pcap_metadata_path', value='test.json')
-        self.declare_parameter(name='/output/pointcloud2', value='/output/pointcloud2')
+        self.declare_parameter(name='topic', value='/output/pointcloud2')
         self.declare_parameter(name='frame_id', value='map')
-        topic = self.get_parameter('/output/pointcloud2').get_parameter_value().string_value
-        self.publisher = self.create_publisher(PointCloud2, topic, 1)
-        self.timer = self.create_timer(0.5, self.timer_callback)
+        topic = self.get_parameter('topic').get_parameter_value().string_value
+        self.source, self.metadata = self.read_pcap()
+        self.publisher = self.create_publisher(PointCloud2, topic, 5)
+        self.timer = self.create_timer(0.1, self.timer_callback)
 
     def timer_callback(self):
-        source, metadata = self.read_pcap()
-        with closing(source):
-            self.pcap_to_ros(source, metadata)
+        self.pcap_to_ros(self.source, self.metadata)
 
     def read_pcap(self):
         pcap_file_path = self.get_parameter('pcap_file_path').get_parameter_value().string_value
@@ -42,6 +41,8 @@ class PcapToRosPublisher(Node):
         with open(pcap_metadata_path, 'r') as f:
             metadata = client.SensorInfo(f.read())
         source = pcap.Pcap(pcap_file_path, metadata)
+        self.xyzlut = client.XYZLut(metadata)
+        self.scans = scans = iter(client.Scans(source))
         return [source, metadata]
 
     def pcap_to_ros(self, source : client.PacketSource, metadata : client.SensorInfo) -> o3d.geometry.PointCloud:
@@ -51,24 +52,22 @@ class PcapToRosPublisher(Node):
                                    "returns are ignored in this conversion by this example "
                                    "for clarity reasons.  You can modify the code as needed by "
                                    "accessing it through github or the SDK documentation.")
-            
-        # precompute xyzlut to save computation in a loop
-        xyzlut = client.XYZLut(metadata)
-
-        # create an iterator of LidarScans from pcap and bound it if num is specified
-        scans = iter(client.Scans(source))
 
         # get the frame_id
         frame_id = self.get_parameter('frame_id').get_parameter_value().string_value
 
-        for idx, scan in enumerate(scans):
+        #write a try catch here
+        try:
+            scan = next(self.scans)
+        except StopIteration:
+            self.get_logger().info("No more data to read")
+            self.shutdown()
+        xyz = self.xyzlut(scan.field(client.ChanField.RANGE))
+        pcd = o3d.geometry.PointCloud()  # type: ignore
+        pcd.points = o3d.utility.Vector3dVector(xyz.reshape(-1, 3))  # type: ignore
+        ros_cloud = self.open3d_to_ros(pcd, frame_id)
 
-            xyz = xyzlut(scan.field(client.ChanField.RANGE))
-            pcd = o3d.geometry.PointCloud()  # type: ignore
-            pcd.points = o3d.utility.Vector3dVector(xyz.reshape(-1, 3))  # type: ignore
-            ros_cloud = self.open3d_to_ros(pcd, frame_id)
-
-            self.publisher.publish(ros_cloud)
+        self.publisher.publish(ros_cloud)
 
     def open3d_to_ros(self, open3d_cloud, frame_id="map") -> PointCloud2:
         # Set "header"
