@@ -33,7 +33,7 @@ class PcapToRosPublisher(Node):
         self.timer = self.create_timer(0.1, self.timer_callback)
 
     def timer_callback(self):
-        self.pcap_to_ros(self.source, self.metadata)
+        self.pcap_to_ros(self.metadata)
 
     def read_pcap(self):
         pcap_file_path = self.get_parameter('pcap_file_path').get_parameter_value().string_value
