@@ -3,6 +3,9 @@ B. Sc. Thesis concerning the semi-automatic creation of a digital twin of a traf
 
 Project Proposal Accepted at 5/11/2023
 
+## Note  
+**Still waiting for professor approval on when to upload the source code. For now i'll be uploading the project runs which are called demos.**
+
 ## The real time detection for an intersection demo:
 https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/assets/46872428/2549ab65-fce6-48c2-88c2-b1d3b224020b
 
