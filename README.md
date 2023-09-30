@@ -36,6 +36,12 @@ DONE!
 * **Step 6** : Implementing the real-time 3D detection and tracking using CenterPoint.  
 DONE!
 
-* **Step 7** : Setting up Unity and Sketchup for the 3D modeling.
+* **Step 7** : Learning Unity  
+DONE!
 
-* **Step 8** : Making a SLAM map based on the recorded pcap file and creating a Lanelet2 Map using the Tier4 website.
+* **Step 8** : [Added the `autoware_auto_perception_msgs` to the Ros2ForUnity Plugin in AWSIM.](https://github.com/rzninvo/AWSIM/commit/aeeadf17f201f0bec529d97b834286d8ddc114c2)  
+DONE!
+
+* **Step 9** : Creating a new sample scene in which any Tracked Object in Autoware with the confidence of 70+, Spawns a Vehicle.
+
+* **Step 10** : Making a SLAM map based on the recorded pcap file and creating a Lanelet2 Map using the Tier4 website.
