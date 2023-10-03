@@ -4,7 +4,8 @@ B. Sc. Thesis concerning the semi-automatic creation of a digital twin of a traf
 Project Proposal Accepted at 5/11/2023
 
 ## Note  
-**Still waiting for Professor Javanmardi's approval on when to upload the source code. For now I'll be uploading the project runtimes.**
+**Still waiting for Professor Javanmardi's approval on when to upload the source code. For now I'll be uploading the project runtimes.**   
+[Checkout my other repository where I'm writing the simulation code for AWSIM.](https://github.com/rzninvo/AWSIM)
 
 ## **(LATEST UPDATE)** The real time simulation (Semi Digital Twin) for an intersection demo:
 
