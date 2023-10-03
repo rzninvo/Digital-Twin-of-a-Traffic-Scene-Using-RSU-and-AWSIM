@@ -33,7 +33,7 @@ class PcapToRosPublisher(Node):
         self.timer = self.create_timer(0.1, self.timer_callback)
 
     def timer_callback(self):
-        self.pcap_to_ros(self.source, self.metadata)
+        self.pcap_to_ros(self.metadata)
 
     def read_pcap(self):
         pcap_file_path = self.get_parameter('pcap_file_path').get_parameter_value().string_value
@@ -42,10 +42,10 @@ class PcapToRosPublisher(Node):
             metadata = client.SensorInfo(f.read())
         source = pcap.Pcap(pcap_file_path, metadata)
         self.xyzlut = client.XYZLut(metadata)
-        self.scans = scans = iter(client.Scans(source))
+        self.scans = iter(client.Scans(source))
         return [source, metadata]
 
-    def pcap_to_ros(self, source : client.PacketSource, metadata : client.SensorInfo) -> o3d.geometry.PointCloud:
+    def pcap_to_ros(self, metadata : client.SensorInfo) -> o3d.geometry.PointCloud:
 
         if (metadata.format.udp_profile_lidar == client.UDPProfileLidar.PROFILE_LIDAR_RNG19_RFL8_SIG16_NIR16_DUAL):
             self.get_logger().info("Note: You've selected to convert a dual returns pcap. Second "
@@ -56,7 +56,6 @@ class PcapToRosPublisher(Node):
         # get the frame_id
         frame_id = self.get_parameter('frame_id').get_parameter_value().string_value
 
-        #write a try catch here
         try:
             scan = next(self.scans)
         except StopIteration:
