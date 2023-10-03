@@ -47,5 +47,6 @@ DONE!
 DONE!
 
 * **Step 9** : Creating a new sample scene in which any Tracked Object in Autoware with the confidence of 70+, Spawns a Vehicle.
+DONE!
 
 * **Step 10** : Making a SLAM map based on the recorded pcap file and creating a Lanelet2 Map using the Tier4 website.
