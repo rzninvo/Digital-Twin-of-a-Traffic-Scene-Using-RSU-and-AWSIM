@@ -48,7 +48,8 @@ https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/a
 
 ## Project Progress and Timechart:
 * **Step 1** : Getting Lidar input data from our Computer Engineering faculty as a demo and attempting to create it's 3D model.   
-DONE!
+HALF DONE!
+Currently requesting my university to give us a license to record a one-hour lidar recording. The 3D modeling comes after!
 
 * **Step 2** : Finishing the Robotics Course and learning ROS.   
 DONE!
