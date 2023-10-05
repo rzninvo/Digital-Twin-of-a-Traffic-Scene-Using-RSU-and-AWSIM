@@ -4,7 +4,7 @@ B. Sc. Thesis concerning the semi-automatic creation of a digital twin of a traf
 Project Proposal Accepted at 5/11/2023
 
 ## Introduction: 
-In the rapidly evolving landscape of Intelligent Transportation Systems (ITS), traffic management, and autonomous vehicles, realistic simulation environments are pivotal for testing and advancing cutting-edge technologies. This thesis introduces a practical approach to create a Digital Twin of a Traffic Scene, enabling high-fidelity simulations of real-world traffic scenarios.
+In the rapidly evolving landscape of Intelligent Transportation Systems (ITS), traffic management, and autonomous vehicles, realistic simulation environments are pivotal for testing and advancing cutting-edge technologies. This thesis introduces a practical approach on creating a Digital Twin of a Traffic Scene, enabling high-fidelity simulations of real-world traffic scenarios.
 
 ### Key Components:
 - **Ouster Lidar Data Integration:** Real-time conversion of Ouster Lidar `.pcap` data to `PointCloud2` ROS2 topics.
