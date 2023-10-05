@@ -1,11 +1,35 @@
-# Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM
+# Digital-Twin of a Traffic Scene Using RSU, AWSIM, And Autoware
 B. Sc. Thesis concerning the semi-automatic creation of a digital twin of a traffic scene near Amirkabir University of Technology
 
 Project Proposal Accepted at 5/11/2023
 
-## Note  
-**Still waiting for Professor Javanmardi's approval on when to upload the source code. For now I'll be uploading the project runtimes.**   
-[Checkout my other repository where I'm writing the simulation code for AWSIM.](https://github.com/rzninvo/AWSIM)
+## Introduction: 
+In the rapidly evolving landscape of Intelligent Transportation Systems (ITS), traffic management, and autonomous vehicles, realistic simulation environments are pivotal for testing and advancing cutting-edge technologies. This thesis introduces a practical approach to create a Digital Twin of a Traffic Scene, enabling high-fidelity simulations of real-world traffic scenarios.
+
+### Key Components:
+- **Ouster Lidar Data Integration:** Real-time conversion of Ouster Lidar `.pcap` data to `PointCloud2` ROS2 topics.
+- **Dynamic Object Detection:** Detection of 3D objects in real-time using **Autoware's Perception Module** with self-made launchers specifically designed to accept any kind of Lidar PointCloud2 data.
+- **AWSIM Integration:** Seamless integration of tracked objects into AWSIM, a Unity-based simulator.
+
+### Project Goals:
+
+- **Realism:** Accurate modeling of real-world traffic conditions captured by sensor data.
+- **Automation:** An automatic methodology for real-time data transformation and object integration.
+- **Validation:** Utilization of innovative tools for effective validation and testing.
+
+### Significance:
+
+- Enhances the testing of ITS and traffic management algorithms in a dynamic and realistic virtual environment.
+- Provides a valuable platform for autonomous vehicle development, training, and adaptation to region-specific traffic scenarios.
+- Eliminates the need for synthesized traffic conditions and labor-intensive simulation setups.
+
+This project presents an opportunity to explore the realms of digital twinning, revolutionizing how we simulate and analyze traffic scenarios for the benefit of future transportation systems and autonomous vehicles.
+
+## Notes
+
+* I currently have a lot on my plate and can't manage to document this project. But once I defend this thesis, I'll document everything!
+* **Still waiting for Professor Javanmardi's approval on when to upload the source code. For now I'll be uploading the project runtimes.**   
+* [Checkout my other repository where I'm writing the simulation code for AWSIM.](https://github.com/rzninvo/AWSIM)
 
 ## **(LATEST UPDATE)** The real time simulation (Semi Digital Twin) for an intersection demo:
 
