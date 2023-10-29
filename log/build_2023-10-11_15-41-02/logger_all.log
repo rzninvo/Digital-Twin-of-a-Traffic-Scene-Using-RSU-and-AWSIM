@@ -1,0 +1,323 @@
+[0.752s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pcap_to_pointcloud2_publisher_py']
+[0.752s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pcap_to_pointcloud2_publisher_py'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc5b7a0f190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc5b7a0d270>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc5b7a0d270>>, mixin_verb=('build',))
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.779s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'ros'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extensions ['cmake', 'python']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'ros'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extensions ['cmake', 'python']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'ros'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extensions ['cmake', 'python']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/launch/tier4_perception_launch/launch/object_recognition/detection) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/autoware.universe/perception/lidar_centerpoint) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/launch/components) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'ros'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extensions ['cmake', 'python']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'cmake'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'python'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extensions ['python_setup_py']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/digital_twin_launch/launcher/autoware_launch/rviz) by extension 'python_setup_py'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcap_to_pointcloud2_publisher_py) by extension 'ros'
+[0.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pcap_to_pointcloud2_publisher_py' with type 'ros.ament_python' and name 'pcap_to_pointcloud2_publisher_py'
+[0.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.864s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install
+[0.874s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 312 installed packages in /opt/ros/humble
+[0.875s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'cmake_target' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'pcap_to_pointcloud2_publisher_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.923s] DEBUG:colcon.colcon_core.verb:Building package 'pcap_to_pointcloud2_publisher_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py', 'merge_install': False, 'path': '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/src/pcap_to_pointcloud2_publisher_py', 'symlink_install': False, 'test_result_base': None}
+[0.931s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.941s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.941s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/src/pcap_to_pointcloud2_publisher_py' with build type 'ament_python'
+[0.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcap_to_pointcloud2_publisher_py', 'ament_prefix_path')
+[0.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/hook/ament_prefix_path.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/hook/ament_prefix_path.dsv'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/hook/ament_prefix_path.sh'
+[0.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.140s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/src/pcap_to_pointcloud2_publisher_py'
+[1.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/src/pcap_to_pointcloud2_publisher_py': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/prefix_override:/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pcap_to_pointcloud2_publisher_py build --build-base /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/build install --record /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/install.log --single-version-externally-managed
+[1.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/src/pcap_to_pointcloud2_publisher_py' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/prefix_override:/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pcap_to_pointcloud2_publisher_py build --build-base /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/build install --record /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/install.log --single-version-externally-managed
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py' for CMake module files
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py' for CMake config files
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib'
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/bin'
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/pkgconfig/pcap_to_pointcloud2_publisher_py.pc'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/python3.10/site-packages'
+[1.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcap_to_pointcloud2_publisher_py', 'pythonpath')
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/hook/pythonpath.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/hook/pythonpath.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/hook/pythonpath.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/bin'
+[1.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcap_to_pointcloud2_publisher_py)
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/package.ps1'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/package.dsv'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/package.sh'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/package.zsh'
+[1.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/colcon-core/packages/pcap_to_pointcloud2_publisher_py)
+[1.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.600s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.612s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.612s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.612s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.620s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.630s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/local_setup.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/_local_setup_util_ps1.py'
+[1.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/setup.ps1'
+[1.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/local_setup.sh'
+[1.641s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/_local_setup_util_sh.py'
+[1.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/setup.sh'
+[1.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/local_setup.bash'
+[1.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/setup.bash'
+[1.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/local_setup.zsh'
+[1.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/setup.zsh'

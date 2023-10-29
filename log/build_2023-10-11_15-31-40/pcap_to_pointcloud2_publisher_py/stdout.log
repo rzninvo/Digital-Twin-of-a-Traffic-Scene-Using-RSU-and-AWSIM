@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info/dependency_links.txt
+writing entry points to ../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info/entry_points.txt
+writing requirements to ../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info/requires.txt
+writing top-level names to ../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info/top_level.txt
+reading manifest file '../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pcap_to_pointcloud2_publisher_py/pcap_to_ros_publisher.py -> /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/build/lib/pcap_to_pointcloud2_publisher_py
+running install
+running install_lib
+copying /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/build/lib/pcap_to_pointcloud2_publisher_py/pcap_to_ros_publisher.py -> /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/python3.10/site-packages/pcap_to_pointcloud2_publisher_py
+byte-compiling /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/python3.10/site-packages/pcap_to_pointcloud2_publisher_py/pcap_to_ros_publisher.py to pcap_to_ros_publisher.cpython-310.pyc
+running install_data
+copying launch/pcap_to_ros_launch.xml -> /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/share/pcap_to_pointcloud2_publisher_py/launch
+running install_egg_info
+removing '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/python3.10/site-packages/pcap_to_pointcloud2_publisher_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pcap_to_pointcloud2_publisher_py/pcap_to_pointcloud2_publisher_py.egg-info to /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/python3.10/site-packages/pcap_to_pointcloud2_publisher_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pcap_to_ros_publisher script to /home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/install/pcap_to_pointcloud2_publisher_py/lib/pcap_to_pointcloud2_publisher_py
+writing list of installed files to '/home/rohamzn/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/build/pcap_to_pointcloud2_publisher_py/install.log'
