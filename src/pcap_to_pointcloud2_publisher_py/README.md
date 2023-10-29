@@ -3,6 +3,7 @@ A ROS2 Package that publishes Ouster .pcap Lidar recordings to a PointCloud2 top
 ![humble](https://github.com/rsasaki0109/lidarslam_ros2/workflows/humble/badge.svg)  
 
 ![DEMO](./resource/pcap_to_pointcloud2_Demo.gif)
+![DEMO_Intesity](./resource/PointCloud_Conversion.gif)
 
 ## Distribution
 This package is distributed as a **ROS2 Humble** Package. It is not intended to be a standalone package, but rather a component of a larger system.

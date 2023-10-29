@@ -117,6 +117,7 @@
         <push-ros-namespace namespace="tracking"/>
         <include file="$(find-pkg-share tier4_perception_launch)/launch/object_recognition/tracking/tracking.launch.xml">
           <arg name="publish_rate" value="30.0"/>
+          <arg name="enable_delay_compensation" value="true"/>
         </include>
       </group>
       <!-- prediction module -->
