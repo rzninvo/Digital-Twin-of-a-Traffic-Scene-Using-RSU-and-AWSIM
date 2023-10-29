@@ -31,7 +31,7 @@ This project presents an opportunity to explore the realms of digital twinning, 
 * **Still waiting for Professor Javanmardi's approval on when to upload the source code. For now I'll be uploading the project runtimes.**   
 * [Checkout my other repository where I'm writing the simulation code for AWSIM.](https://github.com/rzninvo/AWSIM)
 
-## **(LATEST UPDATE)** The real time simulation (Semi Digital Twin) for Amirkabir University of Technology Rasht Street:
+## **(LATEST UPDATE)** The real time simulation (Semi Digital Twin) for Amirkabir University of Technology Rasht Street (GIF):
 
 ![RASHT_DT_DEMO](./resource/Digital_Twin.gif)
 
