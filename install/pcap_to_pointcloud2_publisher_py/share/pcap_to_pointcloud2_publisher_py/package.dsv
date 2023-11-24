@@ -1,6 +1,0 @@
-source;share/pcap_to_pointcloud2_publisher_py/hook/pythonpath.ps1
-source;share/pcap_to_pointcloud2_publisher_py/hook/pythonpath.dsv
-source;share/pcap_to_pointcloud2_publisher_py/hook/pythonpath.sh
-source;share/pcap_to_pointcloud2_publisher_py/hook/ament_prefix_path.ps1
-source;share/pcap_to_pointcloud2_publisher_py/hook/ament_prefix_path.dsv
-source;share/pcap_to_pointcloud2_publisher_py/hook/ament_prefix_path.sh
