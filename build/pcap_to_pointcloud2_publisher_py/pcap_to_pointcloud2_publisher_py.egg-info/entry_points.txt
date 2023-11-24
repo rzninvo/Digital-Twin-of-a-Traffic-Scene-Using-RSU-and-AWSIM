@@ -1,3 +1,0 @@
-[console_scripts]
-pcap_to_ros_publisher = pcap_to_pointcloud2_publisher_py.pcap_to_ros_publisher:main
-
