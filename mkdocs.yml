@@ -1,6 +1,6 @@
 site_name: AUT-DT document
 
-repo_url: https://github.com/AUT/Digital_Twin
+repo_url: https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM
 
 theme:
   name: material
