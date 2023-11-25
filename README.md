@@ -32,7 +32,7 @@ This project presents an opportunity to explore the realms of digital twinning, 
 * [Checkout my other repository where I'm writing the simulation code for AWSIM.](https://github.com/rzninvo/AWSIM)
 
 ## **(LATEST UPDATE)** The real time simulation (Semi Digital Twin) for Amirkabir University of Technology Rasht Street (GIF):
-<div id="gifContainer">
+<!-- <div id="gifContainer">
   <img src="./docs/GettingStarted//QuickStartDemo/Image_top.png" alt="DT Sim" id="placeholderImage">
 </div>
 <script>
@@ -47,8 +47,8 @@ This project presents an opportunity to explore the realms of digital twinning, 
       document.getElementById('gifContainer').innerHTML = '<img src="' + gifImage.src + '" alt="Actual GIF">';
     };
   });
-</script>
-<!-- ![RASHT_DT_DEMO](./resource/Digital_Twin.gif) -->
+</script> -->
+![RASHT_DT_DEMO](./resource/Digital_Twin.gif)
 
 ## The real time simulation (Semi Digital Twin) for an intersection demo:
 
