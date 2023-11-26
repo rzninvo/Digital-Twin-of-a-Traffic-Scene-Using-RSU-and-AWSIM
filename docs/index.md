@@ -1,6 +1,6 @@
 # Welcome to AUT-DT
 
-![](DT_Sim.png)
+![](Digital_Twin.gif)
 
 Amirkabir University of Technology's open source digital twin research using [AWSIM](https://github.com/tier4/AWSIM) and [Autoware](https://github.com/autowarefoundation/autoware).
 
