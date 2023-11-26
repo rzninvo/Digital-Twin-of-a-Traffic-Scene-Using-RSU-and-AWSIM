@@ -27,7 +27,7 @@ This project presents an opportunity to explore the realms of digital twinning, 
 
 ## Tutorial
 First, Try the tutorial from here:   
-[AWSIM Document - Quick Start Demo](https://rzninvo.github.io/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/GettingStarted/QuickStartDemo/)
+[AUT-DT Document - Quick Start Demo](https://rzninvo.github.io/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/GettingStarted/QuickStartDemo/)
 
 ## Documentation
 [AUT-DT Documentation](https://rzninvo.github.io/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/)
