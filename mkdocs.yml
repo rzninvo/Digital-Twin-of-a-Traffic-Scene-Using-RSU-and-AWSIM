@@ -37,7 +37,7 @@ nav:
 
   - Getting started:
     - Quick Start Demo: GettingStarted/QuickStartDemo/index.md
-    #- (TODO) Setup Unity Project: GettingStarted/SetupUnityProject/index.md
+    - Setup Unity Project: GettingStarted/SetupUnityProject/index.md
 
   # - Introduction:
   #   - Autoware: Introduction/Autoware/index.md
