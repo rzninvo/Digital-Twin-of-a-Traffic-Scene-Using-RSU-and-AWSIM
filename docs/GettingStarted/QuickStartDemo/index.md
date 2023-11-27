@@ -267,4 +267,4 @@ You have successfuly launched the AUT-DT demo!
 
 ## 6. Troubleshooting
 
-In case of any problems with running the sample AWSIM binary with Autoware, start with checking our [Troubleshooting page](https://tier4.github.io/AWSIM/DeveloperGuide/TroubleShooting/) with the most common problems.
+In case of any problems with running the sample AWSIM binary with Autoware, start with checking our [Troubleshooting page](../../DeveloperGuide/TroubleShooting/) with the most common problems.
