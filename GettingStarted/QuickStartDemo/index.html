@@ -1,0 +1,1301 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../SetupUnityProject/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Quick Start Demo - AUT-DT document</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quick-start-demo" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AUT-DT document" class="md-header__button md-logo" aria-label="AUT-DT document" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AUT-DT document
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quick Start Demo
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AUT-DT document" class="md-nav__button md-logo" aria-label="AUT-DT document" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    AUT-DT document
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quick Start Demo
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Quick Start Demo
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#demo-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demo configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pc-specs" class="md-nav__link">
+    <span class="md-ellipsis">
+      PC specs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#localhost-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Localhost settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-the-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start the demo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Start the demo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-the-aut-dt-simulation-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running the AUT-DT simulation demo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launching-autoware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launching Autoware
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#downloading-sample-data-recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downloading Sample Data Recording
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launching-aut-dts-specific-sample-data-publisher" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launching AUT-DT's Specific Sample Data Publisher
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lets-run-the-aut-dt-simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Let's run the AUT-DT simulation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Troubleshooting
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SetupUnityProject/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setup Unity Project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/Autoware/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Autoware
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/Autoware_DT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Autoware - Digital Twin Branch
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/AWSIM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWSIM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/AWSIM-Autoware%20Integration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWSIM-Autoware Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Developer guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Developer guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DeveloperGuide/HowToContribute/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DeveloperGuide/TroubleShooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trouble shooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DeveloperGuide/Documentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DeveloperGuide/License/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DeveloperGuide/Contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#demo-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demo configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pc-specs" class="md-nav__link">
+    <span class="md-ellipsis">
+      PC specs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#localhost-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Localhost settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-the-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start the demo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Start the demo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-the-aut-dt-simulation-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running the AUT-DT simulation demo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launching-autoware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launching Autoware
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#downloading-sample-data-recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downloading Sample Data Recording
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launching-aut-dts-specific-sample-data-publisher" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launching AUT-DT's Specific Sample Data Publisher
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lets-run-the-aut-dt-simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Let's run the AUT-DT simulation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Troubleshooting
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="quick-start-demo">Quick Start Demo</h1>
+<p>Below you can find instructions on how to setup the semi-automatic demo of AUT-DT simulation made possible with Autoware and AWSIM.
+The instruction assumes using the Ubuntu OS.</p>
+<p><img alt="" src="Image_top.png" /></p>
+<h3 id="demo-configuration">Demo configuration</h3>
+<p>The simulation provided in the AUT-DT demo is configured as follows:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">AUT-DT Demo Settings</th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Environment</td>
+<td style="text-align: left;">Amirkabir University of Technology, Rasht Street</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sensors</td>
+<td style="text-align: left;">OS1:64 LiDAR * 1</td>
+</tr>
+<tr>
+<td style="text-align: left;">3D Detection Model</td>
+<td style="text-align: left;">TensorRT Centerpoint fp32</td>
+</tr>
+<tr>
+<td style="text-align: left;">Data Association Solver</td>
+<td style="text-align: left;">muSSP</td>
+</tr>
+<tr>
+<td style="text-align: left;">Main Tracker</td>
+<td style="text-align: left;">EKF</td>
+</tr>
+<tr>
+<td style="text-align: left;">ROS2</td>
+<td style="text-align: left;">humble</td>
+</tr>
+<tr>
+<td style="text-align: left;">Autoware</td>
+<td style="text-align: left;">digital_twin branch</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pc-specs">PC specs</h3>
+<p>Please make sure that your machine meets the following requirements in order to run the simulation correctly:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Required PC Specs</th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">OS</td>
+<td style="text-align: left;">Ubuntu 22.04</td>
+</tr>
+<tr>
+<td style="text-align: left;">CPU</td>
+<td style="text-align: left;">6cores and 12thread or higher</td>
+</tr>
+<tr>
+<td style="text-align: left;">GPU</td>
+<td style="text-align: left;">RTX 20 Series or higher</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nvidia Driver (Windows)</td>
+<td style="text-align: left;">&gt;=472.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nvidia Driver (Ubuntu 22)</td>
+<td style="text-align: left;">&gt;=515.43.04</td>
+</tr>
+</tbody>
+</table>
+<h3 id="localhost-settings">Localhost settings</h3>
+<p>The simulation is based on the appropriate network setting, which allows for trouble-free communication of the AWSIM simulation with the Autoware software.
+To apply required localhost settings please add the following lines to <code>~/.bashrc</code> file.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">ROS_LOCALHOST_ONLY</span><span class="o">=</span><span class="m">1</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">RMW_IMPLEMENTATION</span><span class="o">=</span>rmw_cyclonedds_cpp
+
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-e<span class="w"> </span>/tmp/cycloneDDS_configured<span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">    </span>sudo<span class="w"> </span>sysctl<span class="w"> </span>-w<span class="w"> </span>net.core.rmem_max<span class="o">=</span><span class="m">2147483647</span>
+<span class="w">    </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>lo<span class="w"> </span>multicast<span class="w"> </span>on
+<span class="w">    </span>touch<span class="w"> </span>/tmp/cycloneDDS_configured
+<span class="k">fi</span>
+</code></pre></div>
+<h2 id="start-the-demo">Start the demo</h2>
+<h3 id="running-the-aut-dt-simulation-demo">Running the AUT-DT simulation demo</h3>
+<p>To run the simulator, please follow the steps below.</p>
+<ol>
+<li>
+<p>Install Nvidia GPU driver (Skip if already installed).</p>
+<ol>
+<li>Add Nvidia driver to apt repository
+<div class="highlight"><pre><span></span><code>sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+</code></pre></div></li>
+<li>Install the recommended version of the driver.
+<div class="highlight"><pre><span></span><code>sudo ubuntu-drivers autoinstall
+</code></pre></div></li>
+<li>Reboot your machine to make the installed driver detected by the system.
+<div class="highlight"><pre><span></span><code>sudo reboot
+</code></pre></div></li>
+<li>Open terminal and check if <code>nvidia-smi</code> command is available and outputs summary similar to the one presented below.
+<div class="highlight"><pre><span></span><code>$ nvidia-smi 
+Sat Nov 25 14:47:51 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 545.23.08    Driver Version: 545.23.08    CUDA Version: 12.3     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...   On  | 00000000:01:00.0 Off |                  N/A |
+| N/A%   34C    P0  751W / 115W |   11MiB / 16384MiB   |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      2873      G   /usr/lib/xorg/Xorg                 4MiB  |
++-----------------------------------------------------------------------------+
+</code></pre></div></li>
+</ol>
+</li>
+<li>
+<p>Install Vulkan Graphics Library (Skip if already installed).</p>
+<ol>
+<li>Update the environment.
+<div class="highlight"><pre><span></span><code>sudo apt update
+</code></pre></div></li>
+<li>Install the library.
+<div class="highlight"><pre><span></span><code>sudo apt install libvulkan1
+</code></pre></div></li>
+</ol>
+</li>
+<li>
+<p>Download and Run AWSIM Amirkabir Scene binary.</p>
+<ol>
+<li>
+<p>Download <code>AUT-DT_v1.0.0.zip</code>.</p>
+<p><a class="md-button md-button--primary" href="https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/releases/download/v1.0.0/AUT-DT_v1.0.0.zip">Download AWSIM Amirkabir Scene for ubuntu</a></p>
+</li>
+<li>
+<p>Unzip the downloaded file.</p>
+</li>
+<li>
+<p>Make the <code>AWSIM_Amirkabir_Scene.x86_64</code> file executable.</p>
+<p>Rightclick the <code>AWSIM_Amirkabir_Scene.x86_64</code> file and check the <code>Execute</code> checkbox</p>
+<p><img alt="" src="Image_1.png" /></p>
+<p>or execute the command below.</p>
+<div class="highlight"><pre><span></span><code>chmod +x &lt;path to AUT-DT folder&gt;/AWSIM_Amirkabir_Scene.x86_64
+</code></pre></div>
+</li>
+<li>
+<p>Launch <code>AWSIM_Amirkabir_Scene.x86_64</code>.
+    <div class="highlight"><pre><span></span><code>./&lt;path to AUT-DT folder&gt;/AWSIM_Amirkabir_Scene.x86_64
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It may take some time for the application to start the so please wait until image similar to the one presented below is visible in your application window.</p>
+</div>
+<p><img alt="" src="Image_0.png" /></p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="launching-autoware">Launching Autoware</h3>
+<p>In order to configure and run the Autoware software with the AWSIM Simulator, please:</p>
+<ol>
+<li>Clone <a href="https://github.com/rzninvo/autoware.git">Autoware</a> and move to the directory.
+<div class="highlight"><pre><span></span><code>git clone https://github.com/rzninvo/autoware.git
+cd autoware
+</code></pre></div></li>
+<li>Switch branche to <code>digital_twin</code>. <em>NOTE: The latest <code>main</code> branch is for <a href="https://docs.ros.org/en/rolling/Releases/Release-Humble-Hawksbill.html">ROS 2 humble</a>.</em>
+<div class="highlight"><pre><span></span><code>git checkout digital_twin
+</code></pre></div></li>
+<li>Configure the environment. (Skip if Autoware environment has been configured before)
+<div class="highlight"><pre><span></span><code>./setup-dev-env.sh
+</code></pre></div></li>
+<li>Create the <code>src</code> directory and clone external dependent repositories into it.
+<div class="highlight"><pre><span></span><code>mkdir src
+vcs import src &lt; autoware.repos
+</code></pre></div></li>
+<li>Install dependent ROS packages.
+<div class="highlight"><pre><span></span><code>source /opt/ros/humble/setup.bash
+rosdep update
+rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
+</code></pre></div></li>
+<li>Build the workspace.
+<div class="highlight"><pre><span></span><code>colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=&quot;-w&quot;
+</code></pre></div></li>
+<li>
+<p>Launch Autoware.
+<div class="highlight"><pre><span></span><code>source install/setup.bash
+ros2 launch autoware_launch digital_twin.launch.xml
+</code></pre></div>
+    (Optional Launch) For when you have a <code>.pcd</code> map file:
+<div class="highlight"><pre><span></span><code>source install/setup.bash
+ros2 launch autoware_launch digital_twin.launch.xml map_path:=&lt;your mapfile location&gt;
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code>&lt;your mapfile location&gt;</code> must be changed arbitrarily. When specifying the path the <code>~</code> operator cannot be used - please specify absolute full path.</p>
+</div>
+<p><img alt="" src="Image_2.png" /></p>
+</li>
+</ol>
+<h3 id="downloading-sample-data-recording">Downloading Sample Data Recording</h3>
+<ol>
+<li>
+<p>Download <code>Amirkabir_Rasht-Street_Sample_Data_Recording.zip</code>.</p>
+<p><a class="md-button md-button--primary" href="https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM/releases/download/v1.0.0/Amirkabir_Rasht-Street_Sample_Data_Recording.zip">Download Amirkabir Rasht Street Sample Data</a></p>
+</li>
+<li>
+<p>Unzip the downloaded file.</p>
+</li>
+<li>(Optional) Make sure the downloaded recordings are not corrupt.<ol>
+<li>Download <code>Ouster-Studio</code> from <a href="https://ouster.com/products/software/ouster-studio">Ouster Website</a>. </li>
+<li>Run the Ouster-Studio AppImage and play the downloaded recording:
+    <img alt="" src="Image_ouster-studio.png" /></li>
+<li>You should be able to see the recording.
+    <img alt="" src="Image_sample_data_replay.png" /></li>
+</ol>
+</li>
+</ol>
+<h3 id="launching-aut-dts-specific-sample-data-publisher">Launching AUT-DT's Specific Sample Data Publisher</h3>
+<p>The recorded sample data of Amirkabir Rasht Street <strong>is not calibrated</strong> and won't work well with Autoware's perception module. In order to publish it correctly, follow these steps:</p>
+<ol>
+<li>Clone <a href="https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM">Digital-Twin-of-a-Traffic-Scene</a> and move to the directory.
+<div class="highlight"><pre><span></span><code>git clone https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM
+cd Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM
+</code></pre></div></li>
+<li>Build the workspace.
+<div class="highlight"><pre><span></span><code>colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=&quot;-w&quot;
+</code></pre></div></li>
+<li>
+<p>Launch the publisher.
+<div class="highlight"><pre><span></span><code>source install/setup.bash
+ros2 launch pcap_to_pointcloud2_publisher_py pcap_to_ros_launch.xml pcap_file_path:=&lt;path to Amirkabir_Rasht_Street_Ouster-OS1-Sample_Data.pcap&gt; pcap_metadata_path:=&lt;path to 20231011_0630_OS-1-64_992006000018.json&gt; aut_dt:=true publish_intensity:=false
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code>pcap_file_path</code> and <code>pcap_metadata_path</code> must be changed arbitrarily. When specifying the path the <code>~</code> operator cannot be used - please specify absolute full path.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>(Optional)</strong> You can change the <code>publish_intensity</code> parameter to <code>true</code> for better visualization. The <code>aut_dt</code> parameter is <strong>only used for Amirkabir Rasht Street Sample Data</strong>, turn it to <code>false</code> for other sample data.</p>
+</div>
+</li>
+<li>
+<p>(Optional) Launch rviz2 in a new terminal.
+<div class="highlight"><pre><span></span><code>rviz2
+</code></pre></div></p>
+</li>
+<li>(Optional) Set the <code>Fixed Frame</code> to <code>base_link</code>. Add the published <code>PointCloud2</code> topic by clicking on the <code>Add</code> button and finding the topic.
+<img alt="" src="image_rviz_1.png" /></li>
+<li>
+<p>(Optional) Set the <code>Style</code> to <code>Points</code> and you should be able to see the published calibrated sample data on the <code>/sensing/lidar/concatenated/pointcloud</code> topic.
+<img alt="" src="image_rviz_2.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If your published PointCloud2 is <strong>all white</strong>, it's because of the <code>publish_intensity</code> launch file parameter being <strong>false</strong>.</p>
+</div>
+</li>
+</ol>
+<h2 id="lets-run-the-aut-dt-simulation">Let's run the AUT-DT simulation</h2>
+<ol>
+<li>
+<p>Before launching AWSIM and Autoware, open two seperate terminals and write these two commands:</p>
+<ol>
+<li>Run the <strong>static transform publisher</strong> for the <code>map</code> and <code>viewer</code> (rviz2 viewer frame):
+    <div class="highlight"><pre><span></span><code>ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map viewer
+</code></pre></div></li>
+<li>
+<p>Run the <strong>static transform publisher</strong> for the <code>map</code> and <code>base_link</code> (lidar coordinate frame):
+    <div class="highlight"><pre><span></span><code>ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map base_link
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The AUT-DT simulation <strong>won't work</strong> without these two commands. Also remember to run these commands <strong>before launching Autoware</strong>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>For more information on static transform publishers, visit this link: <br />
+<a href="https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Py.html">https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Py.html</a>. <br />
+You can change the transform vectors based on your <strong>sample data</strong> (if your sample data is not calibrated).   </p>
+</div>
+</li>
+</ol>
+</li>
+<li>
+<p>Launch the AWSIM Amirkabir Scene by <a href="#running-the-aut-dt-simulation-demo">following the previous steps</a>.</p>
+</li>
+<li>Launch the Autoware Digital Twin by <a href="#launching-autoware">following the previous steps</a>.</li>
+<li>Launch the Amirkabir Sample Data Publisher by <a href="#launching-aut-dts-specific-sample-data-publisher">following the previous steps</a></li>
+<li>You should be able to see the real-time detection happening in Autoware's rviz2 panel.
+    <img alt="" src="Image_autoware_perception.png" />
+    (Optional) You can enable the <code>Sensing</code> Module to see the original published PointCloud2.
+    <img alt="" src="image_autoware_sensing.png" /></li>
+<li>You should be able to see the real-time simulation in the <code>AWSIM_Amirkabir_Scene.x86_64</code> runtime.
+    <img alt="" src="Image_AUT-DT.png" /></li>
+</ol>
+<p>You have successfuly launched the AUT-DT demo!</p>
+<h2 id="6-troubleshooting">6. Troubleshooting</h2>
+<p>In case of any problems with running the sample AWSIM binary with Autoware, start with checking our <a href="../../DeveloperGuide/TroubleShooting/">Troubleshooting page</a> with the most common problems.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../SetupUnityProject/" class="md-footer__link md-footer__link--next" aria-label="Next: Setup Unity Project">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Setup Unity Project
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.footer", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

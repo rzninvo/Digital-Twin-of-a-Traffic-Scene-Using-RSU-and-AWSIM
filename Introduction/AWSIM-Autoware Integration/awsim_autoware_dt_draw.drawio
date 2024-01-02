@@ -1,0 +1,172 @@
+<mxfile host="Electron" modified="2023-12-31T19:44:26.655Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="TJEz5oKYgziK5OGoeJIV" version="22.1.16" type="device">
+  <diagram name="Page-1" id="CpT_m-j7Am7sjx0DqRG0">
+    <mxGraphModel dx="4155" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-1" value="&lt;div&gt;Autoware_DT&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;arcSize=5;fontSize=16;fontStyle=1;fillColor=#D6F4FC;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1680" y="-850" width="610" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-13" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Perception&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="-820" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-4" target="A4PVRsswyWtyk_FEJGAK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-4" value="Sensing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1647.5" y="-815" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-6" target="A4PVRsswyWtyk_FEJGAK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-42" value="Map data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=12;" vertex="1" connectable="0" parent="A4PVRsswyWtyk_FEJGAK-41">
+          <mxGeometry x="0.0425" y="-1" relative="1" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-6" value="Map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1642.5" y="-680" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-8" target="A4PVRsswyWtyk_FEJGAK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-8" value="*.pcd file" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="-720.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-10" target="A4PVRsswyWtyk_FEJGAK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-10" value="*.osm file (Lanelet2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1880" y="-640.5" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-15" target="A4PVRsswyWtyk_FEJGAK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-15" value="&lt;div&gt;ROS2 PointCloud2 Publisher&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;arcSize=5;fontSize=16;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2060" y="-850" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-17" target="A4PVRsswyWtyk_FEJGAK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-30" value="Array" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=12;rotation=90;" vertex="1" connectable="0" parent="A4PVRsswyWtyk_FEJGAK-21">
+          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-17" value="OusterSDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-2005" y="-840" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-19" value="Open3D" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2005" y="-790" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-24" value="ROS2 PointCloud2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="-825" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-25" value="Obstacle Segmentation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1294.5" y="-806.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-32" value="&lt;b&gt;Object Recognition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1315.5" y="-736.5" width="181" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-33" target="A4PVRsswyWtyk_FEJGAK-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1120" y="-708" />
+              <mxPoint x="-1120" y="-660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-33" value="Detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1294.5" y="-727.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-34" target="A4PVRsswyWtyk_FEJGAK-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1330" y="-660" />
+              <mxPoint x="-1330" y="-708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-34" value="Tracking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1294.5" y="-680.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-4" target="A4PVRsswyWtyk_FEJGAK-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-43" value="Sensors data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=12;" vertex="1" connectable="0" parent="A4PVRsswyWtyk_FEJGAK-36">
+          <mxGeometry x="-0.6385" y="3" relative="1" as="geometry">
+            <mxPoint x="-4" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-44" value="Amirkabir_DT_Scene (Sample Scene)" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1;fontSize=17;glass=0;arcSize=5;fillColor=#f5f5f5;fontColor=#000000;strokeColor=#666666;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1970" y="-530" width="730" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-45" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;Environment (Amirkabir)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelBackgroundColor=none;labelBorderColor=none;horizontal=1;fontStyle=1;fontSize=15;glass=0;arcSize=5;strokeWidth=1;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="-500" width="690" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1080" y="-280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-940" y="-280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-48" value="NPCVehicles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1415" y="-400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-49" value="&lt;div&gt;NPCPedestrians&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1925" y="-400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-50" value="Directional Light" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-51" value="&lt;div&gt;Volume&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1790" y="-480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-52" value="MainCamera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="-320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-53" value="Canvas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-56" target="A4PVRsswyWtyk_FEJGAK-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-56" target="A4PVRsswyWtyk_FEJGAK-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-56" value="&lt;div&gt;SpawnPoint&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1665" y="-400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-58" target="A4PVRsswyWtyk_FEJGAK-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-70" value="ObjectIDs to spawn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=13;" vertex="1" connectable="0" parent="A4PVRsswyWtyk_FEJGAK-57">
+          <mxGeometry x="-0.3516" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-58" value="&lt;div&gt;DetectionSubscriber&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1425" y="-480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-32" target="A4PVRsswyWtyk_FEJGAK-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-61" value="Tracked Objects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="A4PVRsswyWtyk_FEJGAK-59">
+          <mxGeometry x="-0.023" y="-3" relative="1" as="geometry">
+            <mxPoint x="-4" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4PVRsswyWtyk_FEJGAK-66" target="A4PVRsswyWtyk_FEJGAK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4PVRsswyWtyk_FEJGAK-66" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;LiDAR *.pcap recording&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-2170" y="-695" width="160" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
