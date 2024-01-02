@@ -1,8 +1,5 @@
 # Autoware - Digital Twin Branch
 ![Autoware Digital Twin Screenshot](autoware_digital_twin_ss.png)
-<video width="1920" controls autoplay muted loop>
-<source src="3D_Detection_Tracking.mp4" type="video/mp4">
-</video>
 
 The [Autoware Digital Twin](https://github.com/rzninvo/autoware/tree/digital_twin) branch, tailored for AUT_DT research, is a streamlined variant of [Autoware](https://github.com/autowarefoundation/autoware). This specialized version includes the **Perception**, **Map**, and **Sensing** modules, with the **Perception** module playing a pivotal role by housing all of Autoware's 3D Detection and Tracking algorithms.
 
